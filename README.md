@@ -6,6 +6,8 @@
 
 I built this project to learn more about the basics of facial recognition through a traditional approach like Eigenfaces using Principal Component Analysis (PCA). By employing PCA, we extract the directions and magnitude of variance in facial images to determine the most significant features for distinguishing between faces. The Eigenfaces representing these features are visualized between runs and dimensionality of the data is reduced to preserve the most important information necessary for Support Vector Machine (SVM) classification tasks, in this case, predicting celebrity identities.
 
+The dataset used can be found [here](https://github.com/fwang91/IMDb-Face?tab=readme-ov-file#data-download).
+
 ## Programs
 
 1. `extractor2.py`
