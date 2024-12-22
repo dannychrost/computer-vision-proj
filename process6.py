@@ -47,7 +47,7 @@ def augment_images(images, labels):
 # 1. Load and preprocess data
 csv_file = 'IMDb-Face.csv'
 df = pd.read_csv(csv_file)
-df = df.head(4000)
+df = df.head(1000)
 df.drop(columns=['url'], inplace=True) 
 df['location'] = df.apply(lambda row: os.path.join('downloads2', str(row['index']), row['image']), axis=1)
 df = df[df['location'].apply(os.path.exists)]
