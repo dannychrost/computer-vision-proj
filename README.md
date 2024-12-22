@@ -13,7 +13,7 @@ The dataset used can be found [here](https://github.com/fwang91/IMDb-Face?tab=re
 1. `extractor2.py`
 
 - Reads the urls from `IMDb-Face.csv`.
-- Downloads celebrity images from IMDb and organizes them into a local directory.
+- Downloads celebrity images from IMDb's dataset and organizes them into a local directory.
 
 2. `process6.py`
 
@@ -23,11 +23,10 @@ The dataset used can be found [here](https://github.com/fwang91/IMDb-Face?tab=re
 
 ## Requirements
 
-Python v3 or higher
-
-CUDA: v12.6
-
-cuDNN compatible with CUDA v12.6
+- Python v3 or higher
+- CUDA: v12.6
+- cuDNN compatible with CUDA v12.6
+- GPU with CUDA support
 
 ## Dependencies
 
